@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.Container{
+    background-color: rgb(43, 125, 226);
+    height: 100px;
+    padding: 0%;
+    margin: 0%;
+    /* position: relative; */
+}
+/* this below part is for svgicons and its text */
+.svgIcons{
+    float: right;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+;
+}
+#IconText{
+    position: relative;
+    float: right;
+    color: white;
+    text-align: center;
+    font-size:medium;
+    margin-left: 2px; 
+    margin-right: 2px;
+}
+/* this below part is for swasth logo and text */
+.Myself{
+    float: left;
+}
+
+/* #SwasthLogoText{
+    float: left;
+    color: white;
+    text-align: center;
+} */
+/* yaha pe three vertical dots ka hai */
+.container_menu{
+    display: grid;
+    place-items: center;
+}
+.container_menu .three_Vertical_Dots{
+    cursor: pointer;    
+    margin-top: 20px;
+}
+.dot{
+    height: 6px;
+    width: 6px;
+    border-radius: 55%;
+    background-color: white;
+    margin-top: 3px;
+}
+.three_Dots{
+    visibility: visible;
+    height: 135px;
+    width: 150px;
+    background-color: rgb(43, 125, 226);
+    margin-top: 5px;
+    margin-left: -180px;
+    border-radius: 10px;
+
+}
+.frame1 .dropdown_menu {
+    font-size: 20px;
+    color : white;
+    border-bottom: 1px solid wheat;
+    padding: 5px;
+    cursor: pointer;
+}
+.frame1 .dropdown_menu span{
+    margin-left: 10px;
+}
+.frame1 .dropdown_menu:hover{
+    background-color: #363333;
+}
+.frame1{
+    visibility: hidden;
+}
+/* yaha se header ke niche wala hai. */
+.Below_head{
+    background-color: rgb(0, 149, 255);
+    height: auto;
+    width: 100%;
+    margin-top: 2px;
+}
+/* yaha se header ke niche ka niche wala hai */
+.My_projects{
+    margin-top: 110px;
+    margin-bottom: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+ }
+ .My_projects_Img:hover{
+    border-color: yellow;
+ }
+ .My_projects_Img{
+    border-radius: 50%;
+    border: 2px solid blue;
+    cursor: pointer;
+ }
+
+.My_Git_Hub{
+    margin-left: 255px;
+}
+.My_Git_Hub_Img{
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.My_Git_Hub_Img:hover{
+    border-color: yellow;
+}
+.My_LinkedIn{
+    margin-left: 200px;
+}
+.My_LinkedIn_Img{
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.My_LinkedIn_Img:hover{
+    border-color: yellow;
+}
+.contact_Me{
+    margin-left: 200px;
+}
+.contact_Me_Img{
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.contact_Me_Img:hover{
+    border-color: yellow;
+}
+ .GitAndLinkedIn{
+    display:flex;    
+} 
+.My_Achievements{
+    margin-top: 110px;
+    margin-bottom: 100px;
+    margin-left: 6px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.My_Achievements_Img{
+    border-radius: 50%;
+    border: 2px solid blue;
+    border-color: blue;
+    cursor: pointer;
+}
+.My_Achievements_Img:hover{
+    border-color: yellow;
+}
+
+
+/* yaha se projects ka page ka design. */
+.Projects_Container{
+    padding: 0%;
+    margin: 0%;
+}
+.Projects_buttons{
+    width: 60%;
+    color: white;
+    background-color: rgb(255, 0, 85);
+    font-size: larger;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,white);
+}
+.Projects_buttons:hover{
+    cursor: pointer;
+    border-color: blue;
+    transition-duration: 10ms;
+}
+/* yaha se contact me page ka hai. */
+.ContactMe_Container{
+    background-color:white;
+}
+.LinkedIn_ContactMe{
+    margin: 15px;
+}
+.Twitter_ContactMe_Text{
+    color: black;
+}
+.Twitter_ContactMe{
+    margin: 15px;
+}
+.Twitter_ContactMe_Text{
+    color: black;
+}

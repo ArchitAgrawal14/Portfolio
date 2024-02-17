@@ -1,0 +1,81 @@
+.LeftPart{
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+.RightPart{
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    width: 50%;
+    background-color:black;
+    color: lightblue;
+}
+/* yaha se left part ka hai. */
+.Achievements1{
+    height: 350px;
+    width: 100%;
+    border: 3px solid lightblue;
+    border-bottom:0px;
+}
+.Achievements1Img{
+    height: 350px;
+    width: 100%;
+}
+.Achievements2{
+    height: 350px;
+    width: 100%;
+    border: 3px solid lightblue;
+    border-bottom:0px;
+}
+.Achievements2Img{
+    height: 350px;
+    width: 100%;
+}
+.Achievements6{
+    height: 350px;
+    width: 100%;
+    border: 3px solid lightblue;
+    border-bottom:0px;
+}
+.Achievements6Img{
+    height: 350px;
+    width: 100%;
+}
+.Achievements3{
+    height: 350px;
+    width: 100%;
+    border: 3px solid lightblue;
+    border-bottom:0px;
+}
+.Achievements3Img{
+    height: 350px;
+    width: 100%;
+}
+/* yaha se right part ka hai. */
+.Achievements4{
+    height: 350px;
+    width: 100%;
+    margin: 2px;
+    border: 3px solid lightblue;
+    border-bottom:0px;
+    border-left: 0px;
+}
+.Achievements4Img{
+    height: 350px;
+    width: 100%;
+}
+.Achievements5{
+    height: 350px;
+    width: 100%;
+    margin: 2px;
+    border: 3px solid lightblue;
+    border-bottom:0px;
+    border-left: 0px;
+}
+.Achievements5Img{
+    height: 350px;
+    width: 100%;
+}
